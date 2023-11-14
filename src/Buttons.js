@@ -1,6 +1,18 @@
-import { data } from './data';
 
-function Buttons({filteredClothes, setClothes}) {
+
+function Buttons({data, setClothes}) {
+
+  const filteredClothes = searchTerm => {
+    const filteredResult = [];
+    data.forEach(item => {
+      item.searchTerm.forEach(term => {
+        if(term === searchTerm){
+          filteredResult.push(item);
+          setClothes(filteredResult)
+        }
+      })
+    })
+  }
 
   return (
     <div className="cont">

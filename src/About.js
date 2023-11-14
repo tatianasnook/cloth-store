@@ -2,7 +2,7 @@
 
 function About() {
   return (
-    <h1 className="cont">About</h1>
+    <h1 className="cont">About page</h1>
   )
 }
 

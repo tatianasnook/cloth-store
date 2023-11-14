@@ -18,7 +18,7 @@ export const data = [
   {
     id: 3,
     name: "Fancy pants",
-    searchTerm: "pants",
+    searchTerm: ["pants", "shoes"],
     title: "fancy-pants",
     price: 199.99,
     image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGFudHN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
@@ -27,7 +27,7 @@ export const data = [
     id: 4,
     name: "Jeans",
     searchTerm: "pants",
-    title: "jeans",
+    title: ["jeans", "shoes"],
     price: 100.99,
     image: "https://images.unsplash.com/photo-1584370848010-d7fe6bc767ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8dHJvdXNlcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
   },
@@ -42,7 +42,7 @@ export const data = [
   {
     id: 6,
     name: "Beauty",
-    searchTerm: "skirt",
+    searchTerm: ["skirt", "shoes"],
     title: "beauty",
     price: 278.99,
     image: "https://images.unsplash.com/photo-1594226801341-41427b4e5c22?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHNraXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
@@ -77,7 +77,7 @@ export const data = [
   {
     id: 10,
     name: "Amanda shoes",
-    searchTerm: "shoes",
+    searchTerm: ["shoes", "skirt"],
     title: "amanda-shoes",
     price: 305.99,
     image: "https://images.unsplash.com/photo-1627631457335-d1041fd0cb8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGhlZWxzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
@@ -113,7 +113,7 @@ export const data = [
   {
     id: 14,
     name: "Lunch with friends",
-    searchTerm: "skirt",
+    searchTerm: ["skirt", "shirt"],
     title: "lunch-with-friends",
     price: 284,
     image: "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2tpcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
