@@ -7,6 +7,11 @@ import { useState } from 'react';
 function Home() {
   const [clothes, setClothes] = useState(data)
 
+  const chosenClothes = (searchTerm) => {
+    const newClothes = data.filter(element => element.searchTerm === searchTerm)
+    setClothes(newClothes)
+  }
+
   return (
     <div>
       <div className='cont'>
@@ -14,8 +19,9 @@ function Home() {
       </div>
       <Buttons 
         data={data}
+        filteredClothes={chosenClothes}
         setClothes={setClothes}
-        />
+      />
       <Clothes itemsForSale={clothes}/>
     </div>
   )

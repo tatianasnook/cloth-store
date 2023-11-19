@@ -1,22 +1,5 @@
 
-function Buttons({data, setClothes}) {
-
-  const filteredClothes = (searchTerm) => {
-    const filteredResult = [];
-
-    data.forEach((item) => {
-      // Check if searchTerm is present in item.searchTerm
-      if (
-        (typeof item.searchTerm === 'string' && item.searchTerm === searchTerm) ||
-        (Array.isArray(item.searchTerm) && item.searchTerm.includes(searchTerm))
-      ) {
-        filteredResult.push(item);
-      }
-    });
-
-    // Update the state outside the loop to avoid unnecessary re-renders
-    setClothes(filteredResult);
-  };
+function Buttons({data, filteredClothes, setClothes}) {
 
   return (
     <div className="cont">
