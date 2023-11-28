@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/github.io/cloth-store/static/css/main.c8adddc0.css",
+    "main.js": "/github.io/cloth-store/static/js/main.7abdc20d.js",
+    "static/js/787.5bfca85a.chunk.js": "/github.io/cloth-store/static/js/787.5bfca85a.chunk.js",
+    "index.html": "/github.io/cloth-store/index.html",
+    "main.c8adddc0.css.map": "/github.io/cloth-store/static/css/main.c8adddc0.css.map",
+    "main.7abdc20d.js.map": "/github.io/cloth-store/static/js/main.7abdc20d.js.map",
+    "787.5bfca85a.chunk.js.map": "/github.io/cloth-store/static/js/787.5bfca85a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8adddc0.css",
+    "static/js/main.7abdc20d.js"
+  ]
+}
